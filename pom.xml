@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.pblgllgs</groupId>
-	<artifactId>sb3-oauth2-social-login</artifactId>
+	<artifactId>sb2-oauth2-social-login</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>sb3-oauth2-social-login</name>
-	<description>sb3-oauth2-social-login</description>
+	<name>sb2-oauth2-social-login</name>
+	<description>sb2-oauth2-social-login</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -48,9 +48,6 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<image>
-						<builder>paketobuildpacks/builder-jammy-base:latest</builder>
-					</image>
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>
